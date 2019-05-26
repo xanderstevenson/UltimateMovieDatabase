@@ -1,0 +1,2 @@
+# UltimateMovieDatabase
+Your client has tasked you with making the Ultimate Moviegoers Guide using _The Movie Database API_. They are asking for an app that at least covers the following:  * Shows the user a list of movies where the user can sort by   * Now Playing   * Popular   * Top Rated * Allows the user to search for a movie * Allows the user to select a movie and see more details. The more details, the better.  Best of all is the client has given you full creative control.
