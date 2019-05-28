@@ -37,9 +37,9 @@ background-color: black;
   align-content: center;
   margin: 0px auto;
   margin-bottom: 5px;
-  margin-top: -40px;
+  margin-top: -140px;
   position: absolute;
-  top: 510px;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -47,4 +47,15 @@ background-color: black;
 .container {
   position: relative;
   text-align: center;
+}
+
+#tmdb-logo {
+  width: 150px;
+  align-content: center;
+  margin: 0px auto;
+  margin-top: -200px; 
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -50%);
 }

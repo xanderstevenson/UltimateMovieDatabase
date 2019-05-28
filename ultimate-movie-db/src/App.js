@@ -5,6 +5,7 @@ import TopRated from './pages/TopRated/TopRated.js'
 import Search from './pages/Search/Search.js'
 import Home from './pages/Home/Home.js'
 import './App.css';
+import './index.css';
 import {
   Route,
   NavLink,
@@ -46,7 +47,7 @@ function App() {
     <Route path="/top-rated" component={TopRated}/>
     <Route path="/search" component={Search}/>
   </div>
-
+  <img src="green_app_icon.png" alt="movie database logo" id='tmdb-logo'/>
 </div>
 
 </HashRouter>

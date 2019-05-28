@@ -55,7 +55,7 @@ perspective-origin: 50% 50%;
 }
 
 #circle {
-  border: 1px solid yellow;
+  border: 1px solid #F2EEA8;
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -67,7 +67,7 @@ perspective-origin: 50% 50%;
 #nav-table {
   align-content: center;
   margin: 10px auto;
-  background-color: rgb(235, 233, 240);
+  background-color: #F2EEA8;
 }
 
 #nav-table th {
