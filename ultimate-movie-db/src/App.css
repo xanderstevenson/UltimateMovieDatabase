@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  background-color: black;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+#main-heading {
+  font-size: 38px;
+  color: #F2EEA8;
+  text-shadow: -3px 3px 3px purple;
+  align-content: center;
+  margin-left: -70px;
+  margin-top: 30px;
+
+transform: scale(1.2) scaleZ(1.0) rotateX(-16deg) rotateY(-16deg) translateZ(-45px);
+transform-origin: 0% 0%;
+perspective: 200;-webkit-transform: scale(1.2) scaleZ(1.0) rotateX(-16deg) rotateY(-16deg) translateZ(-45px);
+-webkit-transform-origin: 0% 0%;
+-webkit-perspective: 200;
+-webkit-perspective-origin: 50% 50%;
+-moz-transform: scale(1.2) scaleZ(1.0) rotateX(-16deg) rotateY(-16deg) translateZ(-45px);
+-moz-transform-origin: 0% 0%;
+-moz-perspective: 200;
+-moz-perspective-origin: 50% 50%;
+-o-transform: scale(1.2) scaleZ(1.0) rotateX(-16deg) rotateY(-16deg) translateZ(-45px);
+-o-transform-origin: 0% 0%;
+-o-perspective: 200;
+-o-perspective-origin: 50% 50%;
+-ms-transform: scale(1.2) scaleZ(1.0) rotateX(-16deg) rotateY(-16deg) translateZ(-45px);
+-ms-transform-origin: 0% 0%;
+-ms-perspective: 200;
+-ms-perspective-origin: 50% 50%;
+transform: scale(1.2) scaleZ(1.0) rotateX(-16deg) rotateY(-16deg) translateZ(-45px);
+transform-origin: 0% 0%;
+perspective: 200;
+perspective-origin: 50% 50%;
+
+}
+
+#circle {
+  border: 1px solid yellow;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: url(http://api.thumbr.it/whitenoise-361x370.png?background=4d6cc7ff&noise=e8d0e8&density=74&opacity=56);
+  box-shadow: -4px 4px 2px #F2EEA8;
+  /* opacity: 0.98; */
+}
+
+#nav-table {
+  align-content: center;
+  margin: 10px auto;
+  background-color: rgb(235, 233, 240);
+}
+
+#nav-table th {
+  border: 1px solid blue;
+  padding: 5px;
+  font-size: 16px;  
+  margin: 35px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@keyframes main-heading {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
