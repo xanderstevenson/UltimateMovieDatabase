@@ -59,3 +59,7 @@ background-color: black;
   top: 75%;
   transform: translate(-50%, -50%);
 }
+
+.fieldData {
+  color: white;
+}

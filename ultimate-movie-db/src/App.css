@@ -59,8 +59,8 @@ perspective-origin: 50% 50%;
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background: url(http://api.thumbr.it/whitenoise-361x370.png?background=4d6cc7ff&noise=e8d0e8&density=74&opacity=56);
-  box-shadow: -4px 4px 2px #F2EEA8;
+  /* background: url(http://api.thumbr.it/whitenoise-361x370.png?background=4d6cc7ff&noise=e8d0e8&density=74&opacity=56);
+  box-shadow: -4px 4px 2px #F2EEA8; */
   /* opacity: 0.98; */
 }
 

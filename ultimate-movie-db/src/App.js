@@ -21,6 +21,7 @@ function App() {
         <h1 id="main-heading">The <br></br>Ultimate <br></br>Moviegoers <br></br>Guide</h1>
         </div> 
       </header>
+      
 <HashRouter>
   {/* <NowPlaying/>
   <Popular/>
@@ -28,13 +29,15 @@ function App() {
   <Search/> */}
 
 <table id="nav-table">
-  <tr>
-    <th class="th"><NavLink to="/">Home</NavLink></th>
-    <th class="th"><NavLink to="/now-playing">Now Playing</NavLink></th>
-    <th class="th"><NavLink to="/popular">Popular</NavLink></th>
-    <th class="th"><NavLink to="/top-rated">Top Rated</NavLink></th>
-    <th class="th"><NavLink to="/search">Search</NavLink></th>
-  </tr>
+  <tbody>
+
+    <th className="th"><NavLink to="/">Home</NavLink></th>
+    <th className="th"><NavLink to="/now-playing">Now Playing</NavLink></th>
+    <th className="th"><NavLink to="/popular">Popular</NavLink></th>
+    <th className="th"><NavLink to="/top-rated">Top Rated</NavLink></th>
+    <th className="th"><NavLink to="/search">Search</NavLink></th>
+
+  </tbody>
 </table>
 <div className="content">
 
