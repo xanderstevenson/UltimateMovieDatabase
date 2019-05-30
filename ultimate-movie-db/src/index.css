@@ -37,9 +37,9 @@ background-color: black;
   align-content: center;
   margin: 0px auto;
   margin-bottom: 5px;
-  margin-top: -160px;
+  /* margin-top: -160px; */
   position: absolute;
-  top: 80%;
+  /* top: 80%; */
   left: 50%;
   transform: translate(-50%, -50%);
 }
