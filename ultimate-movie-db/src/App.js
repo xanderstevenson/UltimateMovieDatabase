@@ -43,14 +43,14 @@ function App() {
 
   <div class='container'>
  
-   <img id="screen" src="https://res.cloudinary.com/dx5eoz5dw/image/upload/v1558996967/UltimateMoveDatabase/screen2.png" alt=""/>
+   <img id="screen" src="https://res.cloudinary.com/dx5eoz5dw/image/upload/v1559190873/UltimateMoveDatabase/screen2.png" alt=""/>
    <Route exact path="/" component={Home}/>
     <Route path="/now-playing" component={NowPlaying}/>
     <Route path="/popular" component={Popular}/>
     <Route path="/top-rated" component={TopRated}/>
     <Route path="/search" component={Search}/>
   </div>
-  <img src="green_app_icon.png" alt="movie database logo" id='tmdb-logo'/>
+  
 </div>
 
 </HashRouter>
