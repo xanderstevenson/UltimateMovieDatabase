@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import axios from 'axios';
 
 
 const apiURL = "https://api.themoviedb.org/3/movie/now_playing?api_key=15e1bbc41548aa6ea02bac4f092efa6f&language=en-US&page=1"
-
+var underline = {
+    textDecoration: 'underline'
+}
 // const axios = require('axios');
 
 
@@ -50,18 +52,19 @@ function getNiceListofTitles(list){
 
 
 
-function NowPlaying() {
-
+class NowPlaying extends Component {
+render(){
     return ( 
         <div>
             <br></br>
             <h1 className='page-name'>Now Playing</h1>  
             <br></br>
-                <span><h2>{`There following movies currently playing in theatres:`}</h2></span>
+                <span><h2>The following movies <span style={underline}>are now playing</span> in theatres:</h2></span>
                 {/* <span>{getTitleNames(getTMDBdata())}</span> */}
                 <span>{getNiceListofTitles(getTitleNames(getTMDBdata()))}</span>
         </div>
     )
     }
+}
 export default NowPlaying
 

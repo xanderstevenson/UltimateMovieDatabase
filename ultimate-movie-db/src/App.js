@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import NowPlaying from './pages/NowPlaying/NowPlaying.js'
 import Popular from './pages/Popular/Popular.js'
 import TopRated from './pages/TopRated/TopRated.js'
@@ -11,8 +11,20 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
+import RenderToLayer from 'material-ui/internal/RenderToLayer';
 
-function App() {
+
+window.onload = function() {
+  if(!window.location.hash) {
+      window.location = window.location + '#loaded';
+      window.location.reload();
+  }
+}
+
+
+
+class App extends Component {
+ render(){
   return (
     <div className="App">
       
@@ -58,5 +70,5 @@ function App() {
     </div>
   );
 }
-
+}
 export default App;
