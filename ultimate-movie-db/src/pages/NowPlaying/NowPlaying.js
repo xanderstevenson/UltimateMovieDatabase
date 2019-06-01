@@ -26,17 +26,19 @@ function getTMDBdata(){
 
 function getTitleNames(str){
     var str2 = str.toString()
-    var count = 0
+    var id = 0
     var list2 = str2.split('"')
     var list3 = []
     for(let i = 0; i < list2.length; i ++){
         if(list2[i] == "title"){
-            count +=1
+ 
             list2[i].replace('title', '')
-            list3.push(list2[i + 2] + ", ")
+            list3.push(list2[i + 2] + list2[i - 5])
+           
         }
+
     }
-    return list3
+    return list3 
 }
 
 
@@ -45,8 +47,13 @@ function getNiceListofTitles(list){
     // for(let i = 0; i < list.length; i++){
     //  newlist += list[i] + "/n"
     // }
+ 
+    
     return list.map((item)=>{
-      return <p>{item}</p>
+      var movieID = item.substring(item.length-7)
+      var item2 = item.substring(0, item.length-8)
+      var movieURL = 'https://www.themoviedb.org/movie/' + movieID + '?language=en-US'
+      return <p><a class="link" href= {movieURL} target="#blank">{item2}</a></p>
     })
 }
 

@@ -70,6 +70,7 @@ perspective-origin: 50% 50%;
 #nav-table {
   align-content: center;
   margin: 10px auto;
+  margin-bottom: 0x;
   background-color: #F2EEA8;
 }
 
@@ -97,7 +98,6 @@ a {
   margin: 0px auto;
   width: 150px;
   align-content: center;
-  margin-top: 10px;
   position: relative;
   top: 135px;
   font-weight: bold;

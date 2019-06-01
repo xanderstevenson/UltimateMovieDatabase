@@ -63,3 +63,14 @@ background-color: black;
 .fieldData {
   color: white;
 }
+
+#submitButton {
+  width: 80px;
+  height: 20px;
+  align-content: center;
+  text-align: center;
+}
+
+.link {
+  color: #F2EEA8;
+}

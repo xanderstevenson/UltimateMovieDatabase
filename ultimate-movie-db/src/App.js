@@ -69,7 +69,7 @@ class App extends Component {
 <div className="content">
 
   <div class='container'>
-  <center id='from'>Brought to you by:</center>
+  <center id="from">Brought to you by:</center>
    <img id="screen" src="https://res.cloudinary.com/dx5eoz5dw/image/upload/v1559190873/UltimateMoveDatabase/screen2.png" alt=""/>
    <Route exact path="/" component={Home}/>
     <Route path="/now-playing" component={NowPlaying}/>
