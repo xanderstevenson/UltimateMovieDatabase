@@ -43,9 +43,31 @@ function getNiceListofTitles(list){
 }
 
 
-
+var test = getNiceListofTitles(getTitleNames(getTMDBdata()))
 
 class Search extends Component {
+
+
+    constructor(props){
+        super(props);
+        this.state = {
+          data: ''
+        }
+      }
+
+    getData(){
+        setTimeout(() => {
+          console.log('Our data is fetched');
+          this.setState({
+            data: test
+          })
+        }, 1000)
+      }
+
+    componentDidMount(){
+        this.getData();
+      }
+
     render() {
 
     function getMovie(){
@@ -54,7 +76,7 @@ class Search extends Component {
 
     return (
         
-        <div onLoad="initInput()">
+        <div>
          <br></br>
         <h1 class='page-name'>Search</h1>
         <br></br>
@@ -64,7 +86,7 @@ class Search extends Component {
             <label htmlFor="movieSearch">Search for a Movie: </label>
             <br></br>
             <br></br>
-            <input type="text" name="movieSearch" id="movieSearch" placeholder='moviename' value='hat'/>
+            <input type="text" name="movieSearch" id="movieSearch" placeholder='moviename' />
             <br></br>
             <button type="submit" id="submitButton" onClick={getMovie}>Submit</button>
             </form>
@@ -76,6 +98,12 @@ class Search extends Component {
 
             </script>
         </span>
+
+            <div>
+            {this.state.data}
+            </div>
+        
+
         </div>
     )
     }

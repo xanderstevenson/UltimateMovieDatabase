@@ -14,10 +14,11 @@
   min-height: 300px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-content: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 0px auto;
 }
 
 
@@ -62,6 +63,8 @@ perspective-origin: 50% 50%;
   /* background: url(http://api.thumbr.it/whitenoise-361x370.png?background=4d6cc7ff&noise=e8d0e8&density=74&opacity=56);
   box-shadow: -4px 4px 2px #F2EEA8; */
   /* opacity: 0.98; */
+  align-content: center;
+  margin: 0px auto;
 }
 
 #nav-table {
@@ -88,4 +91,14 @@ a {
   to {
     transform: rotate(360deg);
   }
+}
+
+#from {
+  margin: 0px auto;
+  width: 150px;
+  align-content: center;
+  margin-top: 10px;
+  position: relative;
+  top: 135px;
+  font-weight: bold;
 }

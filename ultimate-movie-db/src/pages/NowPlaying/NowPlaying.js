@@ -50,9 +50,31 @@ function getNiceListofTitles(list){
     })
 }
 
-
+var test = getNiceListofTitles(getTitleNames(getTMDBdata()))
 
 class NowPlaying extends Component {
+
+    constructor(props){
+        super(props);
+        this.state = {
+          data: ''
+        }
+      }
+
+    getData(){
+        setTimeout(() => {
+          console.log('Our data is fetched');
+          this.setState({
+            data: test
+          })
+        }, 1000)
+      }
+
+    componentDidMount(){
+        this.getData();
+      }
+
+
 render(){
     return ( 
         <div>
@@ -62,6 +84,12 @@ render(){
                 <span><h2>The following movies <span style={underline}>are now playing</span> in theatres:</h2></span>
                 {/* <span>{getTitleNames(getTMDBdata())}</span> */}
                 <span>{getNiceListofTitles(getTitleNames(getTMDBdata()))}</span>
+        
+            <div>
+            {this.state.data}
+            </div>
+                
+        
         </div>
     )
     }

@@ -45,6 +45,28 @@ function getNiceListofTitles(list){
 }
 
 class Home extends Component {
+
+    constructor(props){
+        super(props);
+        this.state = {
+          data: ''
+        }
+      }
+
+    getData(){
+        setTimeout(() => {
+          console.log('Our data is fetched');
+          this.setState({
+            data: ''
+          })
+        }, 1000)
+      }
+
+    componentDidMount(){
+        this.getData();
+      }
+
+
     render(){
     return ( 
         <div>
@@ -54,6 +76,9 @@ class Home extends Component {
                 <span><h2><span style={underline}>Upcoming Releases</span>:</h2></span>
                 {/* <span>{getTitleNames(getTMDBdata())}</span> */}
                 <span>{getNiceListofTitles(getTitleNames(getTMDBdata()))}</span>
+        <div>
+        {this.state.data}
+        </div>
         </div>
     )
     }

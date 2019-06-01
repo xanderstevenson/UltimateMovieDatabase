@@ -44,8 +44,31 @@ function getNiceListofTitles(list){
       return <p>{item}</p>
     })
 }
+var test = getNiceListofTitles(getTitleNames(getTMDBdata()))
 
 class TopRated extends Component {
+
+    constructor(props){
+        super(props);
+        this.state = {
+          data: ''
+        }
+      }
+
+    getData(){
+        setTimeout(() => {
+          console.log('Our data is fetched');
+          this.setState({
+            data: test
+          })
+        }, 1000)
+      }
+
+    componentDidMount(){
+        this.getData();
+      }
+    
+
     render(){
     return ( 
         <div>
@@ -55,8 +78,11 @@ class TopRated extends Component {
                 <span><h2>These are the <span style={underline}>top rated</span> movies:</h2></span>
                 {/* <span>{getTitleNames(getTMDBdata())}</span> */}
                 <span>{getNiceListofTitles(getTitleNames(getTMDBdata()))}</span>
+            <div>
+            {this.state.data}
+            </div>
         </div>
-    );
+    )
     }
 }
     export default TopRated
