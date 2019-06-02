@@ -73,4 +73,18 @@ background-color: black;
 
 .link {
   color: #F2EEA8;
+  font-size: 24px;
+}
+
+.movieTable {
+  align-content: center;
+  margin: 0px auto;
+  border-collapse: collapse;
+}
+
+.movieTable td{
+  width: 300px;
+  margin: 0px auto;
+  border: 2px groove #F2EEA8;
+  padding: 4px;
 }

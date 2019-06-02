@@ -2,14 +2,10 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 
-const apiURL = "https://api.themoviedb.org/3/movie/now_playing?api_key=15e1bbc41548aa6ea02bac4f092efa6f&language=en-US&page=1"
+var info = []
 var underline = {
     textDecoration: 'underline'
 }
-// const axios = require('axios');
-
-
-var info = []
 
 function getTMDBdata(){
     axios.get('https://api.themoviedb.org/3/movie/now_playing?api_key=15e1bbc41548aa6ea02bac4f092efa6f&language=en-US&page=1')
@@ -31,12 +27,9 @@ function getTitleNames(str){
     var list3 = []
     for(let i = 0; i < list2.length; i ++){
         if(list2[i] == "title"){
- 
             list2[i].replace('title', '')
-            list3.push(list2[i + 2] + list2[i - 5])
-           
+            list3.push(list2[i + 2] + list2[i - 5])   
         }
-
     }
     return list3 
 }
@@ -44,16 +37,11 @@ function getTitleNames(str){
 
 function getNiceListofTitles(list){
     var newlist = ''
-    // for(let i = 0; i < list.length; i++){
-    //  newlist += list[i] + "/n"
-    // }
- 
-    
     return list.map((item)=>{
       var movieID = item.substring(item.length-7)
       var item2 = item.substring(0, item.length-8)
       var movieURL = 'https://www.themoviedb.org/movie/' + movieID + '?language=en-US'
-      return <p><a class="link" href= {movieURL} target="#blank">{item2}</a></p>
+      return <tr><td><a class="link" href= {movieURL} target="#blank">{item2}</a></td></tr>
     })
 }
 
@@ -88,15 +76,14 @@ render(){
             <br></br>
             <h1 className='page-name'>Now Playing</h1>  
             <br></br>
-                <span><h2>The following movies <span style={underline}>are now playing</span> in theatres:</h2></span>
+                <span><h2>The following movies are <span style={underline}>now playing</span> in theatres:</h2></span>
                 {/* <span>{getTitleNames(getTMDBdata())}</span> */}
-                <span>{getNiceListofTitles(getTitleNames(getTMDBdata()))}</span>
-        
+                <table class = "movieTable">
+<span>{getNiceListofTitles(getTitleNames(getTMDBdata()))}</span>
+                </table>
             <div>
-            {this.state.data}
+            {/* {this.state.data} */}
             </div>
-                
-        
         </div>
     )
     }

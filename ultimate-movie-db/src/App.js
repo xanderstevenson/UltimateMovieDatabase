@@ -70,7 +70,7 @@ class App extends Component {
 
   <div class='container'>
   <center id="from">Brought to you by:</center>
-   <img id="screen" src="https://res.cloudinary.com/dx5eoz5dw/image/upload/v1559190873/UltimateMoveDatabase/screen2.png" alt=""/>
+   <a href="https://www.themoviedb.org" target="blank#"><img id="screen" src="https://res.cloudinary.com/dx5eoz5dw/image/upload/v1559190873/UltimateMoveDatabase/screen2.png" alt=""/></a>
    <Route exact path="/" component={Home}/>
     <Route path="/now-playing" component={NowPlaying}/>
     <Route path="/popular" component={Popular}/>
