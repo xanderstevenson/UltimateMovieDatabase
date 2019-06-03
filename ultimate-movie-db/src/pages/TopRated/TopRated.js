@@ -81,7 +81,7 @@ class TopRated extends Component {
             <br></br>
             <h1 className='page-name'>Top Rated</h1>  
             <br></br>
-                <span><h2>These are the <span style={underline}>top rated</span> movies:</h2></span>
+                <span><h2 class="black-text-outline">These are the <span style={underline}>top rated</span> movies:</h2></span>
                 {/* <span>{getTitleNames(getTMDBdata())}</span> */}
                 <table class = "movieTable">
 <span>{getNiceListofTitles(getTitleNames(getTMDBdata()))}</span>

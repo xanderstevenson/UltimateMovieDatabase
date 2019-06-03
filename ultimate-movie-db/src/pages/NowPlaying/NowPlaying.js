@@ -76,7 +76,7 @@ render(){
             <br></br>
             <h1 className='page-name'>Now Playing</h1>  
             <br></br>
-                <span><h2>The following movies are <span style={underline}>now playing</span> in theatres:</h2></span>
+                <span><h2 class="black-text-outline">The following movies are <span style={underline}>now playing</span> in theatres:</h2></span>
                 {/* <span>{getTitleNames(getTMDBdata())}</span> */}
                 <table class = "movieTable">
 <span>{getNiceListofTitles(getTitleNames(getTMDBdata()))}</span>

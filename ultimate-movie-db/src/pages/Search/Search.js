@@ -7,7 +7,9 @@ var info = []
 
 
 function getTMDBdata(vid){
-
+  let vid2 = vid
+  vid = vid2
+  // alert(vid2)
   axios.get('https://api.themoviedb.org/3/search/movie?query=' + vid + '&api_key=15e1bbc41548aa6ea02bac4f092efa6f&language=en-US&page=1&include_adult=false')
  
   .then(response => JSON.stringify(response))
@@ -17,6 +19,7 @@ function getTMDBdata(vid){
   .catch(function(error){
       alert(error)
   })  
+
   return info
 }
 
@@ -25,7 +28,7 @@ function getTitleNames(str){
   var count = 0
   var list2 = str2.split('"')
   var list3 = []
-  for(let i = 0; i < list2.length + 1; i ++){
+  for(let i = 0; i < list2.length; i ++){
       if(list2[i] == "title"){
           count +=1
           list2[i].replace('title', '')
@@ -38,7 +41,7 @@ function getTitleNames(str){
 function getNiceListofTitles(list){
   var newlist = ''
   return list.map((item)=>{
-    return <p>{item}</p>
+    return <tr><td><a class="link"  target="#blank">{item}</a></td></tr>
 
   
 })
@@ -51,7 +54,7 @@ class Search extends Component {
     constructor(props){
         super(props);
         this.state = {
-          data: 'Type Here',
+          data: ' ',
         }
       }
 
@@ -83,8 +86,8 @@ class Search extends Component {
         <br></br>
         <br></br>
         <span>
-            <form >
-            <label htmlFor="movieSearch">Search for a Movie: </label>
+            <form>
+            <label class="label" htmlFor="movieSearch">Search for a Movie: </label>
             <br></br>
             <br></br>
             <input type="text"  value={this.state.data} name="movieSearch" onChange={this.handleChange} id="movieSearch" placeholder='moviename' />

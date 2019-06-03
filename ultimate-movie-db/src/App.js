@@ -69,8 +69,8 @@ class App extends Component {
 <div className="content">
 
   <div class='container'>
-  <center id="from">Brought to you by:</center>
-   <a href="https://www.themoviedb.org" target="blank#"><img id="screen" src="https://res.cloudinary.com/dx5eoz5dw/image/upload/v1559190873/UltimateMoveDatabase/screen2.png" alt=""/></a>
+  <center class="black-text-outline" id="from">Brought to you by:</center>
+   <a href="https://www.themoviedb.org" target="blank#"><img id="screen" src="https://res.cloudinary.com/dx5eoz5dw/image/upload/v1559533888/UltimateMoveDatabase/screen2.png" alt="movie database logo"/></a>
    <Route exact path="/" component={Home}/>
     <Route path="/now-playing" component={NowPlaying}/>
     <Route path="/popular" component={Popular}/>

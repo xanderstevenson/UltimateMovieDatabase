@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  background-color: black;
+  /* background-color: black; */
+  background-image: url('https://res.cloudinary.com/dx5eoz5dw/image/upload/v1556036776/blue-paisley_sho0uq.png');
+  min-width: 385px;
 }
 
 .App-logo {
@@ -27,8 +29,9 @@
   color: #F2EEA8;
   text-shadow: -3px 3px 3px purple;
   align-content: center;
-  margin-left: -70px;
+  margin-left: -90px;
   margin-top: 30px;
+  min-width: 400px;
 
 transform: scale(1.2) scaleZ(1.0) rotateX(-16deg) rotateY(-16deg) translateZ(-45px);
 transform-origin: 0% 0%;
@@ -72,12 +75,13 @@ perspective-origin: 50% 50%;
   margin: 10px auto;
   margin-bottom: 0x;
   background-color: #F2EEA8;
+  min-width: 395px;
 }
 
 #nav-table th {
   border: 1px solid blue;
   padding: 5px;
-  font-size: 16px;  
+  font-size: 15px;  
   margin: 35px;
 }
 
@@ -99,6 +103,10 @@ a {
   width: 150px;
   align-content: center;
   position: relative;
-  top: 135px;
+  top: 125px;
   font-weight: bold;
+}
+
+.black-text-outline {
+  text-shadow: 1px 1px 1px black;
 }

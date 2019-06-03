@@ -75,7 +75,7 @@ class Popular extends Component {
             <br></br>
             <h1 className='page-name'>Popular</h1>  
             <br></br>
-                <span><h2>The following are <span style={underline}>popular</span> movies:</h2></span>
+                <span><h2 class="black-text-outline">The following are <span style={underline}>popular</span> movies:</h2></span>
                 {/* <span>{getTitleNames(getTMDBdata())}</span> */}
                 <table class = "movieTable">
 <span>{getNiceListofTitles(getTitleNames(getTMDBdata()))}</span>

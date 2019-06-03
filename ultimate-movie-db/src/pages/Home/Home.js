@@ -72,7 +72,7 @@ class Home extends Component {
                 <br></br>
                 <h1 className='page-name'>Home</h1>  
                 <br></br>
-                <span><h2><span style={underline}>Upcoming Releases</span>:</h2></span>
+                <span><h2><span class="black-text-outline" style={underline}>Upcoming Releases</span>:</h2></span>
                 {/* <span>{getTitleNames(getTMDBdata())}</span> */}
                 <table class = "movieTable">
 <span>{getNiceListofTitles(getTitleNames(getTMDBdata()))}</span>
