@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f00ba197f82cafdb2fc5b51beb442bd",
+    "revision": "cea45ea4f7b50121706d1eafa6008476",
     "url": "/UltimateMovieDatabase/index.html"
   },
   {
-    "revision": "ea02d5ca242b059ed2ab",
+    "revision": "cb5ead1085a5adcd754a",
     "url": "/UltimateMovieDatabase/static/css/main.4e1a716c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/UltimateMovieDatabase/static/js/2.c591d792.chunk.js"
   },
   {
-    "revision": "ea02d5ca242b059ed2ab",
-    "url": "/UltimateMovieDatabase/static/js/main.45315cc5.chunk.js"
+    "revision": "cb5ead1085a5adcd754a",
+    "url": "/UltimateMovieDatabase/static/js/main.0c0ff5bc.chunk.js"
   },
   {
     "revision": "502ce56044b65398ad76",
