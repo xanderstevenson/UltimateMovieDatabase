@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/xanderstevenson/UltimateMovieDatabase/static/css/main.4e1a716c.chunk.css",
+    "main.js": "/xanderstevenson/UltimateMovieDatabase/static/js/main.cc6b06d9.chunk.js",
+    "main.js.map": "/xanderstevenson/UltimateMovieDatabase/static/js/main.cc6b06d9.chunk.js.map",
+    "runtime~main.js": "/xanderstevenson/UltimateMovieDatabase/static/js/runtime~main.7255291e.js",
+    "runtime~main.js.map": "/xanderstevenson/UltimateMovieDatabase/static/js/runtime~main.7255291e.js.map",
+    "static/js/2.c591d792.chunk.js": "/xanderstevenson/UltimateMovieDatabase/static/js/2.c591d792.chunk.js",
+    "static/js/2.c591d792.chunk.js.map": "/xanderstevenson/UltimateMovieDatabase/static/js/2.c591d792.chunk.js.map",
+    "index.html": "/xanderstevenson/UltimateMovieDatabase/index.html",
+    "precache-manifest.71288bf70419367d9a03bbc532d4c0a7.js": "/xanderstevenson/UltimateMovieDatabase/precache-manifest.71288bf70419367d9a03bbc532d4c0a7.js",
+    "service-worker.js": "/xanderstevenson/UltimateMovieDatabase/service-worker.js",
+    "static/css/main.4e1a716c.chunk.css.map": "/xanderstevenson/UltimateMovieDatabase/static/css/main.4e1a716c.chunk.css.map"
+  }
+}
