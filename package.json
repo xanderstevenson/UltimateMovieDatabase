@@ -2,7 +2,7 @@
   "name": "ultimate-movie-db",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://xanderstevenson.github.io/UltimateMovieDatabase/",
+  "homepage": "https://xanderstevenson.github.io/UltimateMovieDatabase/build",
   "dependencies": {
     "axios": "^0.18.0",
     "babel": "^6.23.0",
