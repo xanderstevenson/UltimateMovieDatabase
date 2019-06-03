@@ -11,11 +11,11 @@ body {
 }
 
 #container {
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 #root {
-  background-color: red;
+  /* background-color: red; */
 }
 
 code {
@@ -26,6 +26,7 @@ code {
 .content {
 background: url('https://res.cloudinary.com/dx5eoz5dw/image/upload/v1554009724/bark_npp6ss.png');
   min-height: 500px;
+  min-width: 375px;
 }
 
 #screen {
