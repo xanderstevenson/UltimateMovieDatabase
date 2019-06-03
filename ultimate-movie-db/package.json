@@ -2,6 +2,7 @@
   "name": "ultimate-movie-db",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://seunzone.github.io/TD-React-Challenge-Test-1",
   "dependencies": {
     "axios": "^0.18.0",
     "babel": "^6.23.0",
