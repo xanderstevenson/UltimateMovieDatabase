@@ -14,30 +14,16 @@ import {
 import RenderToLayer from 'material-ui/internal/RenderToLayer';
 
 
+window.onload = function() {
+  if(!window.location.hash) {
+      window.location = window.location + '#loaded';
+      window.location.reload();
+  }
+}
+
+
 
 class App extends Component {
-
-  constructor(props){
-    super(props);
-    this.state = {
-      data: ''
-    }
-  }
-
-  getData(){
-    setTimeout(() => {
-      console.log('Our data is fetched');
-      this.setState({
-        data: ''
-      })
-    }, 1000)
-  }
-
-  componentDidMount(){
-    this.getData();
-  }
-
-
  render(){
   return (
     <div className="App">
@@ -65,12 +51,11 @@ class App extends Component {
 
   </tbody>
 </table>
-
 <div className="content">
 
   <div class='container'>
-  <center class="black-text-outline" id="from">Brought to you by:</center>
-   <a href="https://www.themoviedb.org" target="blank#"><img id="screen" src="https://res.cloudinary.com/dx5eoz5dw/image/upload/v1559533888/UltimateMoveDatabase/screen2.png" alt="movie database logo"/></a>
+ 
+   <img id="screen" src="https://res.cloudinary.com/dx5eoz5dw/image/upload/v1559190873/UltimateMoveDatabase/screen2.png" alt=""/>
    <Route exact path="/" component={Home}/>
     <Route path="/now-playing" component={NowPlaying}/>
     <Route path="/popular" component={Popular}/>
@@ -82,12 +67,7 @@ class App extends Component {
 
 </HashRouter>
 
-    <div>
-      {this.state.data}
     </div>
-
-    </div>
-
   );
 }
 }

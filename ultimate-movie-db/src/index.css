@@ -6,7 +6,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #F2EEA8;
-  background-color: black;
+  /* background-color: black; */
+  background: url('https://res.cloudinary.com/dx5eoz5dw/image/upload/v1556036776/blue-paisley_sho0uq.png')
+}
+
+#container {
+  /* background-color: blue; */
+}
+
+#root {
+  /* background-color: red; */
 }
 
 code {
@@ -15,8 +24,9 @@ code {
 }
 
 .content {
-background-color: black;
+background: url('https://res.cloudinary.com/dx5eoz5dw/image/upload/v1554009724/bark_npp6ss.png');
   min-height: 500px;
+  min-width: 375px;
 }
 
 #screen {
@@ -32,19 +42,74 @@ background-color: black;
 }
 
 .page-name {
-  border: 2px ridge #F2EEA8;
+  border: 3px ridge #F2EEA8;
   width: 200px;
   align-content: center;
   margin: 0px auto;
   margin-bottom: 5px;
-  margin-top: -40px;
+  /* margin-top: -160px; */
   position: absolute;
-  top: 510px;
+  /* top: 80%; */
   left: 50%;
   transform: translate(-50%, -50%);
+  text-shadow: 1px 1px 1px black;
+  background-color: rgb(218, 215, 201);
+  padding: 3px;
 }
 
 .container {
   position: relative;
   text-align: center;
+}
+
+#tmdb-logo {
+  width: 150px;
+  align-content: center;
+  margin: 0px auto;
+  margin-top: -200px; 
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.fieldData {
+  color: white;
+}
+
+#submitButton {
+  width: 80px;
+  height: 20px;
+  align-content: center;
+  text-align: center;
+}
+
+.link {
+  color: #000000;
+  font-size: 24px;
+}
+
+.movieTable {
+  align-content: center;
+  margin: 0px auto;
+  border-collapse: collapse;
+
+}
+
+.movieTable td{
+  width: 300px;
+  margin: 0px auto;
+  border: 2px groove #F2EEA8;
+  padding: 4px;
+  background-color: #fffaf0;
+}
+
+.movieTable tr{
+ padding: 5px;
+  margin: 5px auto;
+}
+
+.label {
+  text-shadow: 1px 1px 1px black;
+  font-size: 22px;
 }

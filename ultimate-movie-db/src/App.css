@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  background-color: black;
+  /* background-color: black; */
+  background-image: url('https://res.cloudinary.com/dx5eoz5dw/image/upload/v1556036776/blue-paisley_sho0uq.png');
+  min-width: 385px;
 }
 
 .App-logo {
@@ -14,10 +16,11 @@
   min-height: 300px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-content: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 0px auto;
 }
 
 
@@ -26,8 +29,9 @@
   color: #F2EEA8;
   text-shadow: -3px 3px 3px purple;
   align-content: center;
-  margin-left: -70px;
+  margin-left: -90px;
   margin-top: 30px;
+  min-width: 400px;
 
 transform: scale(1.2) scaleZ(1.0) rotateX(-16deg) rotateY(-16deg) translateZ(-45px);
 transform-origin: 0% 0%;
@@ -55,25 +59,29 @@ perspective-origin: 50% 50%;
 }
 
 #circle {
-  border: 1px solid yellow;
+  border: 1px solid #F2EEA8;
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background: url(http://api.thumbr.it/whitenoise-361x370.png?background=4d6cc7ff&noise=e8d0e8&density=74&opacity=56);
-  box-shadow: -4px 4px 2px #F2EEA8;
+  /* background: url(http://api.thumbr.it/whitenoise-361x370.png?background=4d6cc7ff&noise=e8d0e8&density=74&opacity=56);
+  box-shadow: -4px 4px 2px #F2EEA8; */
   /* opacity: 0.98; */
+  align-content: center;
+  margin: 0px auto;
 }
 
 #nav-table {
   align-content: center;
   margin: 10px auto;
-  background-color: rgb(235, 233, 240);
+  margin-bottom: 0x;
+  background-color: #F2EEA8;
+  min-width: 395px;
 }
 
 #nav-table th {
   border: 1px solid blue;
   padding: 5px;
-  font-size: 16px;  
+  font-size: 15px;  
   margin: 35px;
 }
 
@@ -88,4 +96,17 @@ a {
   to {
     transform: rotate(360deg);
   }
+}
+
+#from {
+  margin: 0px auto;
+  width: 150px;
+  align-content: center;
+  position: relative;
+  top: 125px;
+  font-weight: bold;
+}
+
+.black-text-outline {
+  text-shadow: 1px 1px 1px black;
 }
