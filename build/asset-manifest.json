@@ -1,15 +1,11 @@
 {
   "files": {
-    "main.css": "/UltimateMovieDatabase/static/css/main.4e1a716c.chunk.css",
-    "main.js": "/UltimateMovieDatabase/static/js/main.0c0ff5bc.chunk.js",
-    "main.js.map": "/UltimateMovieDatabase/static/js/main.0c0ff5bc.chunk.js.map",
+    "main.js": "/UltimateMovieDatabase/static/js/main.f660448d.chunk.js",
+    "main.js.map": "/UltimateMovieDatabase/static/js/main.f660448d.chunk.js.map",
     "runtime~main.js": "/UltimateMovieDatabase/static/js/runtime~main.8aa2ac3f.js",
     "runtime~main.js.map": "/UltimateMovieDatabase/static/js/runtime~main.8aa2ac3f.js.map",
-    "static/js/2.c591d792.chunk.js": "/UltimateMovieDatabase/static/js/2.c591d792.chunk.js",
-    "static/js/2.c591d792.chunk.js.map": "/UltimateMovieDatabase/static/js/2.c591d792.chunk.js.map",
     "index.html": "/UltimateMovieDatabase/index.html",
-    "precache-manifest.291783ea52cbe2836eee523f373f872e.js": "/UltimateMovieDatabase/precache-manifest.291783ea52cbe2836eee523f373f872e.js",
-    "service-worker.js": "/UltimateMovieDatabase/service-worker.js",
-    "static/css/main.4e1a716c.chunk.css.map": "/UltimateMovieDatabase/static/css/main.4e1a716c.chunk.css.map"
+    "precache-manifest.31d11218ab8baedd226a018cbcc37c8b.js": "/UltimateMovieDatabase/precache-manifest.31d11218ab8baedd226a018cbcc37c8b.js",
+    "service-worker.js": "/UltimateMovieDatabase/service-worker.js"
   }
 }
