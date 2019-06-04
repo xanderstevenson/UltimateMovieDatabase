@@ -7,7 +7,7 @@
     "@babel/core": "^7.4.5",
     "axios": "^0.18.0",
     "babel": "^6.23.0",
-    "babel-loader": "^8.0.6",
+
     "es6-promise": "^4.2.6",
     "export-loader": "^1.0.52",
     "import-loader": "^1.0.1",
