@@ -9,6 +9,7 @@
     "babel": "^6.23.0",
     "es6-promise": "^4.2.6",
     "export-loader": "^1.0.52",
+    "gh-pages": "^2.0.1",
     "import-loader": "^1.0.1",
     "jquery": "^3.4.1",
     "lodash": "^4.17.11",
