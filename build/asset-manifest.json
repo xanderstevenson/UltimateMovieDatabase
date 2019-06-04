@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/UltimateMovieDatabase/static/css/main.4e1a716c.chunk.css",
+    "main.js": "/UltimateMovieDatabase/static/js/main.ac57add1.chunk.js",
+    "main.js.map": "/UltimateMovieDatabase/static/js/main.ac57add1.chunk.js.map",
+    "runtime~main.js": "/UltimateMovieDatabase/static/js/runtime~main.8aa2ac3f.js",
+    "runtime~main.js.map": "/UltimateMovieDatabase/static/js/runtime~main.8aa2ac3f.js.map",
+    "static/js/2.fe672777.chunk.js": "/UltimateMovieDatabase/static/js/2.fe672777.chunk.js",
+    "static/js/2.fe672777.chunk.js.map": "/UltimateMovieDatabase/static/js/2.fe672777.chunk.js.map",
+    "index.html": "/UltimateMovieDatabase/index.html",
+    "precache-manifest.c21085018d85c246d41bb04eb9ff3222.js": "/UltimateMovieDatabase/precache-manifest.c21085018d85c246d41bb04eb9ff3222.js",
+    "service-worker.js": "/UltimateMovieDatabase/service-worker.js",
+    "static/css/main.4e1a716c.chunk.css.map": "/UltimateMovieDatabase/static/css/main.4e1a716c.chunk.css.map"
+  }
+}
