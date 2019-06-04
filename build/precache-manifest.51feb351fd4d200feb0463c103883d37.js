@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a53d082ad396c75ec3f3eaf40f7220b",
+    "revision": "c74ea5f8095bf642461532ccb26e1059",
     "url": "/UltimateMovieDatabase/index.html"
   },
   {
-    "revision": "970cbaebec9d44de1f08",
-    "url": "/UltimateMovieDatabase/static/css/main.f381d5fb.chunk.css"
+    "revision": "e9aee9031680b9d59ddc",
+    "url": "/UltimateMovieDatabase/static/css/main.2eacf449.chunk.css"
   },
   {
     "revision": "bf04bbe2acd88756ccaf",
     "url": "/UltimateMovieDatabase/static/js/2.fbe3a724.chunk.js"
   },
   {
-    "revision": "970cbaebec9d44de1f08",
+    "revision": "e9aee9031680b9d59ddc",
     "url": "/UltimateMovieDatabase/static/js/main.8601b7b3.chunk.js"
   },
   {
