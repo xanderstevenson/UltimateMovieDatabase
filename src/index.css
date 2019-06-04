@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -7,7 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #F2EEA8;
   /* background-color: black; */
-  background: url('https://res.cloudinary.com/dx5eoz5dw/image/upload/v1556036776/blue-paisley_sho0uq.png')
+  /* background: url('https://res.cloudinary.com/dx5eoz5dw/image/upload/v1556036776/blue-paisley_sho0uq.png') */
 }
 
 #container {

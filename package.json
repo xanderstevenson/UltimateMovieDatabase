@@ -2,12 +2,14 @@
   "name": "ultimate-movie-db",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://xanderstevenson.github.io/UltimateMovieDatabase/",
+  "homepage": "https://xanderstevenson.github.io/UltimateMovieDatabase",
   "dependencies": {
+    "@babel/core": "^7.4.5",
     "axios": "^0.18.0",
     "babel": "^6.23.0",
     "es6-promise": "^4.2.6",
     "export-loader": "^1.0.52",
+    "gh-pages": "^2.0.1",
     "import-loader": "^1.0.1",
     "jquery": "^3.4.1",
     "lodash": "^4.17.11",
@@ -24,10 +26,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -44,5 +46,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0"
   }
 }
